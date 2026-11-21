@@ -4,76 +4,87 @@ An interactive geographic data visualization project exploring earthquake activi
 
 ## Project Overview
 
-This project visualizes earthquake locations and magnitude across Japan through an interactive animated map. It aims to make earthquake patterns easier to explore over time through geographic visualization, KPI reporting, and interactive features.
+This project was developed as an independent learning and portfolio project to practice Tableau visualization techniques, geographic mapping, time-based animation, and dashboard development.
 
-## Interactive Dashboard
-
-**[View Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/abdur.rahim5381/viz/JapanEarthquakeActivity2007-2014/Dashboard1)**
+The dashboard allows users to explore earthquake locations and observe changes in earthquake activity over time.
 
 ## Dashboard Preview
 
-![Japan Earthquake Activity Dashboard](Images/dashboard-overview.PNG)
+![Japan Earthquake Dashboard](Images/dashboard-overview.png)
 
-## Key Performance Indicators
+**Explore the interactive dashboard:** [View on Tableau Public](https://public.tableau.com/app/profile/abdur.rahim5381/viz/JapanEarthquakeActivity2007-2014/Dashboard1)
 
-| Metric | Result |
+## Key Features
+
+- Geographic visualization of earthquake locations around Japan.
+- Interactive motion chart using Tableau Pages.
+- Year-based animation covering 2007–2014.
+- Magnitude-based color and size encoding.
+- Interactive tooltips displaying earthquake details.
+- KPI indicators for earthquake count and magnitude statistics.
+
+## Tableau Visualizations
+
+### 1. Geographic Earthquake Map
+
+![Earthquake Map](Images/earthquake-map-2011.png)
+
+Displays the geographic distribution of earthquake events around Japan.
+
+### 2. Interactive Earthquake Tooltip
+
+![Earthquake Tooltip](Images/earthquake-tooltip.png)
+
+Displays individual earthquake details, including location, date, magnitude, depth, latitude, and longitude.
+
+## Key Metrics
+
+The dashboard includes the following KPI indicators:
+
+| Metric | Displayed Value |
 |---|---:|
 | Total Earthquakes | 144 |
 | Average Magnitude | 6.358 |
 | Maximum Magnitude | 9.000 |
 
-*Values shown in the published dashboard.*
+*These values reflect the dashboard's displayed filter state.*
 
-## Visualization Features
-
-- **Geographic Mapping:** Displays earthquake locations using latitude and longitude.
-- **Motion Chart:** Uses Tableau Pages to animate earthquake activity by year from 2007 to 2014.
-- **Magnitude Visualization:** Uses colour and marker size to represent earthquake magnitude.
-- **Interactive Controls:** Allows users to navigate between years and play the animation.
-- **Earthquake Details:** Tooltips display location, date, magnitude, depth, and geographic coordinates.
-- **KPI Dashboard:** Summarizes total events, average magnitude, and maximum magnitude.
-
-## Tools & Technologies
+## Tools and Techniques
 
 - Tableau Public
-- Data Visualization
-- Geographic Mapping
-- Time-Series Visualization
-- Interactive Dashboard Design
+- Geographic Data Visualization
+- Tableau Pages and Animation
+- Calculated Fields and Aggregation
+- KPI Development
+- Dashboard Design and Data Storytelling
 
-## Skills Demonstrated
+## Project Structure
 
-- Geographic data visualization
-- Working with latitude and longitude
-- Time-based data exploration
-- KPI development
-- Tableau Pages and animation
-- Dashboard design and data storytelling
+- `Dashboard/` – Packaged Tableau workbook (.twbx)
+- `Dataset/` – Original earthquake dataset and source information
+- `Images/` – Dashboard and visualization screenshots
 
-## Project Files
-
-- `Dashboard/` – Tableau workbook (.twbx), if available
-- `Images/` – Dashboard screenshots
-- `Dataset/` – Original dataset, subject to redistribution permission
-
-## Data Source
+## Data Source and Attribution
 
 The earthquake dataset was obtained through the learning materials provided in the **Tableau Business Intelligence Analyst Specialization on Coursera**.
 
 The dataset was used for educational purposes and independent portfolio development.
 
-**Learning Platform:** [Coursera – Tableau Business Intelligence Analyst](https://www.coursera.org/specializations/tableau-business-intelligence-analyst)
+[Coursera – Tableau Business Intelligence Analyst](https://www.coursera.org/specializations/tableau-business-intelligence-analyst)
 
-**Original Dataset Publisher:** Not yet identified.
+Public redistribution of the dataset is subject to the original dataset's applicable permissions.
 
-## Disclaimer
+## Learning Outcomes
 
-This project was developed as an independent learning and portfolio project to demonstrate practical Tableau skills, geographic data visualization, time-series animation, and interactive dashboard development.
+Through this project, I practiced:
 
-## Author
+- Building geographic visualizations using latitude and longitude.
+- Creating time-based motion charts with Tableau Pages.
+- Designing interactive tooltips.
+- Developing KPI dashboards.
+- Combining multiple visualizations into a single dashboard.
 
-Abdurrahim
+---
 
-Aspiring Data Analyst | Business Intelligence Enthusiast
-
-**Portfolio:** [Tableau Public](https://public.tableau.com/app/profile/abdur.rahim5381)
+**Project Type:** Independent Learning & Portfolio Project  
+**Visualization Tool:** Tableau Public
