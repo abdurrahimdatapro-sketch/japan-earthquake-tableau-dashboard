@@ -10,7 +10,7 @@ The dashboard allows users to explore earthquake locations and observe changes i
 
 ## Dashboard Preview
 
-![Japan Earthquake Dashboard](Images/dashboard-overview.png)
+![Japan Earthquake Dashboard](Images/dashboard-overview.PNG)
 
 **Explore the interactive dashboard:** [View on Tableau Public](https://public.tableau.com/app/profile/abdur.rahim5381/viz/JapanEarthquakeActivity2007-2014/Dashboard1)
 
