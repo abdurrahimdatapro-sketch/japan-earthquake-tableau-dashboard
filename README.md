@@ -12,7 +12,7 @@ This project visualizes earthquake locations and magnitude across Japan through 
 
 ## Dashboard Preview
 
-![Japan Earthquake Activity Dashboard](Images/dashboard-overview.png)
+![Japan Earthquake Activity Dashboard](Images/dashboard-overview.PNG)
 
 ## Key Performance Indicators
 
