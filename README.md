@@ -27,7 +27,7 @@ The dashboard allows users to explore earthquake locations and observe changes i
 
 ### 1. Geographic Earthquake Map
 
-![Earthquake Map](Images/earthquake-map-2011.png)
+![Earthquake Map](Images/earthquake-map-2011.PNG)
 
 Displays the geographic distribution of earthquake events around Japan.
 
